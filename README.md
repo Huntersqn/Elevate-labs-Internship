@@ -69,14 +69,19 @@ Port	      Service	       Description	      Risk Level	                         
 135/tcp  	msrpc (Microsoft RPC)	Handles DCOM and remote management	                                        🔴 High	- Used in remote attacks (e.g., MS03-026)
 - Vulnerable to DCOM buffer overflows
 - Often exploited in lateral movement
+  
 139/tcp	netbios-ssn	NetBIOS session for file/printer sharing	                                              🔴 High	- Used in SMB attacks
 - Can allow information disclosure or unauthenticated file access
+ 
 445/tcp	microsoft-ds (SMB over TCP)	File sharing and Active Directory	                                      🔴 High	- Critical vulnerabilities (EternalBlue, WannaCry)
 - Enables pass-the-hash, SMB relay attacks
+  
 8000/tcp	Splunkd httpd	Web interface for Splunk (free license)	                                            🟠 Medium	- May expose internal data/logs if unauthenticated
 - May be vulnerable to web exploits (XSS, injection)
+  
 8009/tcp	Splunkd (unknown)	Possibly AJP or alternate Splunk port                                          	🟠 Medium	- Could expose unauthenticated or misconfigured services
 - If AJP (Apache JServ Protocol), may be vulnerable to Ghostcat
+  
 49665-49674/tcp
 62391/tcp	Unknown (Ephemeral ports)	High ports used by Windows for dynamic service binding	                🟡 Low-Medium	- Could indicate active services
 - If bound by malware or backdoor, may permit remote access
