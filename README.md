@@ -116,3 +116,7 @@ Action	Description
 🔍 Malware Scan	Scan host for malware that may be using high ephemeral ports
 🚧 Network Segmentation	Isolate vulnerable services in DMZ or behind VPNs/firewalls
 
+Here is the attachment of this task 1:
+![Image](https://github.com/user-attachments/assets/5cc54c00-ee90-47bc-af0c-3be4fa82174c)
+2)![Image](https://github.com/user-attachments/assets/671df7bc-53e4-4fb8-bf11-8ad60ac99c60)
+
