@@ -132,3 +132,12 @@ Here is the attachment of this task 1:
 
 ![Image](https://github.com/user-attachments/assets/671df7bc-53e4-4fb8-bf11-8ad60ac99c60)
 
+Task 2: Phishing Email Analysis Report
+Sample Email Analyzed
+Subject: Microsoft account password change
+Sender: support@msupdate.net
+Time: 4:09 PM
+Recipient: ethan@hooksecurity.co
+Screenshot
+Phising Email Screenshot
+
